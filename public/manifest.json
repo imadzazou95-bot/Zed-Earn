@@ -1,0 +1,43 @@
+{
+  "id": "/?source=pwa",
+  "name": "Zed Earn — التسويق بالعمولة",
+  "short_name": "Zed Earn",
+  "description": "منصة تسويق بالعمولة جزائرية — أنجز مهام واربح بالدينار الجزائري (DZD).",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0B1120",
+  "theme_color": "#2563EB",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["finance", "business", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    {
+      "name": "المهام",
+      "short_name": "Tasks",
+      "url": "/?tab=tasks",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "السحب",
+      "short_name": "Withdraw",
+      "url": "/?tab=withdraw",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "المحفظة",
+      "short_name": "Wallet",
+      "url": "/?tab=wallet",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Zed Earn — غير متصل</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+        background: linear-gradient(160deg, #0b1120, #131c30);
+        color: #eef2ff; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; padding: 24px;
+      }
+      .card { max-width: 380px; text-align: center; }
+      .logo {
+        width: 92px; height: 92px; border-radius: 28px; margin: 0 auto 22px;
+        background: linear-gradient(135deg, #2563eb, #4f46e5);
+        display: flex; align-items: center; justify-content: center;
+        font-size: 46px; font-weight: 800; color: #fff;
+      }
+      h1 { font-size: 21px; margin: 0 0 10px; }
+      p { color: #94a3b8; font-size: 14px; line-height: 1.7; margin: 0 0 22px; }
+      button {
+        background: linear-gradient(135deg, #2563eb, #4f46e5); color: #fff; border: 0;
+        padding: 14px 28px; border-radius: 14px; font-size: 15px; font-weight: 700; cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="logo">Z</div>
+      <h1>أنت غير متصل بالإنترنت</h1>
+      <p>
+        بياناتك محفوظة محلياً ولن تضيع. أعد الاتصال ثم أعد المحاولة.<br />
+        Vous êtes hors ligne — vos données locales sont conservées.
+      </p>
+      <button onclick="location.reload()">إعادة المحاولة</button>
+    </div>
+  </body>
+</html>
